@@ -1,0 +1,84 @@
+      *{margin:0; padding:0;}
+      #project{
+        color : white;
+      }
+
+      body{
+        background-image : url('website-design-background.png');
+        <!--background-position : center;-->
+        background-repeat : no-repeat;
+        background-size : cover;
+        position : relative;
+          }
+      a.other{
+        font-family: sans-serif;
+        color:white;
+        font-weight:bold;
+        text-decoration:none;
+        font-size : 18px;				       
+        margin:0 auto;
+     }
+        
+      a.other:link{
+        color:white;
+      }
+
+      a.other:visited{
+        color:white;
+      }
+
+      a.other:hover{
+        color:#7fcd91;
+      }
+
+      a.other:active{
+        color:#7fcd91;
+      }
+
+      .top-bar{
+        height:60px;
+        background-color:#1a1a1a;
+        width:100%;
+        position:fixed;
+        border-bottom: double #7fcd91;
+        margin:0 auto;
+        overflow:auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .top-links ul.one li{				/*OTHER BUTTONS ON THE TOP BAR*/
+        display:inline-block;
+        padding:13px;
+        margin-top:7px;
+        margin-right:13px;
+        float:right;
+        list-style-type:none;
+      }
+
+      .top-links ul.two li{				/* HOME BUTTON*/
+        display:inline-block;
+        padding:0px;
+        margin-top:7px;
+        margin-right:25px;
+        float:right;
+        list-style-type:none;
+      }
+
+      a.home:link, a.home:visited {
+        background-color: #1a1a1a;
+        color: #7fcd91;
+        border: 2px solid #7fcd91;
+        text-decoration: none;
+        padding:10px 20px;
+        display: inline-block;
+        font-family: sans-serif;
+        font-weight:bold;
+        font-size : 18px;				       
+        margin:0 auto;
+      }
+
+      a.home:hover, a.home:active{
+        background-color:#7fcd91;
+        color:white;
+      }
+
