@@ -3,13 +3,6 @@
         color : white;
       }
 
-      body{
-        background-image : url('website-design-background.png');
-        <!--background-position : center;-->
-        background-repeat : no-repeat;
-        background-size : cover;
-        position : relative;
-          }
       a.other{
         font-family: sans-serif;
         color:white;
@@ -44,10 +37,84 @@
         margin:0 auto;
         overflow:auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        z-index:1;
       }
 
       .top-links ul.one li{				/*OTHER BUTTONS ON THE TOP BAR*/
         display:inline-block;
+        padding:13px;
+        margin-top:7px;
+        margin-right:13px;
+        float:right;
+        list-style-type:none;
+      }
+
+      .top-links ul.two li{				/* HOME BUTTON*/
+        display:inline-block;
+        padding:0px;
+        margin-top:7px;
+        margin-right:25px;
+        float:right;
+        list-style-type:none;
+      }
+
+      a.home:link, a.home:visited {
+        background-color: #1a1a1a;
+        color: #7fcd91;
+        border: 2px solid #7fcd91;
+        text-decoration: none;
+        padding:10px 20px;
+        display: inline-block;
+        font-family: sans-serif;
+        font-weight:bold;
+        font-size : 18px;				       
+        margin:0 auto;
+      }
+
+      a.home:hover, a.home:active{
+        background-color:#7fcd91;
+        color:white;
+      }
+
+  img.background{
+    position:absolute;
+  }
+
+  img.profile{
+    position:absolute;
+    margin-left:30%;
+    margin-top:23%;
+    border:4px solid #666;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  body{
+    background-color:#1a1a1a;
+  }
+  p.para{
+    position:absolute;
+    color:white;
+    padding-top:60%;
+    font-size:27px;
+    padding-left:2%;
+    padding-right:2%;
+    font-family:sans-serif;
+  }
+
+  footer{
+    position:absolute;
+    margin-top:147%;
+    background:#666;
+    color:white;
+    width:100%; 
+    height:15%;
+    z-index:2;
+
+  }
+  p.bottom{
+        padding: 40px 40px;
+        font-size:30px;
+        float:right;
+  }
         padding:13px;
         margin-top:7px;
         margin-right:13px;
